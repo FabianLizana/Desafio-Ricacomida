@@ -1,0 +1,62 @@
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+
+/*estilos barra de navegacion*/
+.titulo{
+    font-family: 'lobster';
+    font-weight: 700;
+    font-size: 2rem;
+}
+.nav-list{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+
+/*estilos texto , botones*/
+.text-p{
+    font-size: 1.8em;
+}
+
+#Inicio{
+    padding-top: 4rem;
+}
+
+@media only screen and (max-width: 322px){
+
+    .time-text{
+        font-size:0.9rem;
+    }
+    .btn-mail , .btn-favorito{
+        font-size: 0.7rem;
+    }
+    .text-receta{
+        font-size: 0.9rem;
+    }
+    .list-receta{
+        font-size: 0.9rem;
+    }
+
+    .text-p{
+        font-size: 1.2rem;
+    }
+}
+
+/*seccion suscripcion*/
+
+.seccion-suscripcion{
+    background-color: #DC3545;
+    color: #fff;
+}
+
+footer{
+    background-color: #373A3C;
+    color: #fff;
+}
